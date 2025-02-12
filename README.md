@@ -34,7 +34,7 @@ If you don't have it, then execute:
   ```
   curl -sSL https://install.python-poetry.org | python3
   poetry install --without dev
-  poetry run python3 overload.py
+  poetry run python3 QHBYTE.py
   ```
 
   ---
@@ -46,8 +46,8 @@ If you don't have it, then execute:
 ```
 sudo apt update
 sudo apt install python3 python3-pip git -y
-git clone https://github.com/7zx/overload
-cd overload/
+git clone https://github.com/retr0-qh/Quan-Hoa-Tools
+cd QHBYTE/
 
 make setup
 make run
@@ -64,11 +64,10 @@ make run
 pkg update
 pkg install python3 python3-pip git -y
 
-git clone https://github.com/7zx/overload
-cd overload/
-
+git clone https://github.com/retr0-qh/Quan-Hoa-Tools
+cd QHBYTE
 pip install -r requirements.txt
-python3 overload.py
+python3 QHBYTEpy
 ```
 
 ---
@@ -88,7 +87,7 @@ python3 overload.py
 │   ├───METHOD: HTTP
 │   ├───TIME: 600
 │   ├───THREADS: 800
-│   └───URL: https://github.com/7zx/overload
+│   └───URL: https://github.com/retr0-qh/Quan-Hoa-Tools
 ```
 
 `Slowloris`: Just like an HTTP attack, Slowloris also aims to block other users from accessing a certain resource, but it does that by connecting virtual hosts with a slow connection to the victim. The victim will eventually have a lot of slow connections open and will block new users from accessing its resources.
@@ -100,7 +99,7 @@ python3 overload.py
 │   ├───TIME: 300
 │   ├───THREADS: 200
 │   ├───SLEEP TIME: 15
-│   └───URL: https://github.com/7zx/overload
+│   └───URL: https://github.com/retr0-qh/Quan-Hoa-Tools
 ```
 
 Both `HTTP` and `Slowloris` attacks have a proxy version. If you choose to use proxy, then the threads will initialize and connect to elite-anonymity public proxies, and if not, your IP will be used on the requests. We do not own the proxy servers and do not respond for anything that they may do (like leaking your actual IP); they are hosted by volunteers and their addresses are retrieved through the [Proxy Scrape API](https://docs.proxyscrape.com/).
