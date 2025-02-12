@@ -1,7 +1,7 @@
 <h1 align="center">📡 DoS Tool</h1> 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"> <img src="https://img.shields.io/github/forks/7zx/overload?style=social"> <img src="https://img.shields.io/github/stars/7zx/overload?style=social">
+<img src="https://logodix.com/logo/1118589.jpg"> <img src="https://img.shields.io/github/stars/7zx/overload?style=social">
 
 </div>
 
